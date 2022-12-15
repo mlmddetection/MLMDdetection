@@ -4,7 +4,7 @@
 ## Commands
 Threshold-based classifier:
 ```
-python detect.py --tn 3 --n 500 --unm_model roberta-base -victim bert
+python detect.py --tn 3 --n 500 --unm_model roberta-base --victim bert
 ```
 Model-based classifier:
 ```
