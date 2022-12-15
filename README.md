@@ -6,7 +6,16 @@ Threshold-based classifier:
 ```
 python detect.py --tn 3 --n 500 --unm_model roberta-base --victim bert
 ```
-Model-based classifier:
+Model-based classifier(XGBoost):
 ```
 python xgb.py
 ```
+Model-based classifier(MLP):
+```
+python mlp.py
+```
+Fine-tuning masked language models:
+```
+python ft_unm_model.py
+```
+
